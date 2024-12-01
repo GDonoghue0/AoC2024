@@ -16,7 +16,6 @@ class Solution:
     def get_similarity(self):
         data1, data2 = self.read_input()
         data2_counts = Counter(data2)
-        print(data2_counts)
 
         similarity = 0
         for i in range(len(data1)):
